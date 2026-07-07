@@ -1,0 +1,26 @@
+SOC-Detection-Lab/
+│
+├── README.md
+├── LICENSE
+│
+├── docs/
+│   ├── 01-Lab-Setup.md
+│   ├── 02-Attack-01-PowerShell.md
+│   ├── 03-Attack-02-Malware-Drop.md
+│   ├── 04-Attack-03-Persistence.md
+│   ├── 05-Attack-04-Discovery.md
+│   ├── 06-Attack-05-Scheduled-Task.md
+│   ├── 07-Attack-06-Application-Shim.md
+│   ├── 08-Mimikatz-Simulation.md
+│   ├── 09-Ransomware-Simulation.md
+│   └── 10-SOC-Incident-Report.md
+│
+└── images/
+    ├── powershell-alert.png
+    ├── malware-drop.png
+    ├── registry-persistence.png
+    ├── scheduled-task.png
+    ├── discovery.png
+    ├── application-shim.png
+    ├── mimikatz.png
+    └── ransomware.png
