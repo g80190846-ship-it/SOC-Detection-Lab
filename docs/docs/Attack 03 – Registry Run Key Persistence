@@ -1,0 +1,26 @@
+# Attack 03 – Registry Run Key Persistence
+
+## Objective
+
+Simulate persistence by adding a Registry Run key.
+
+## Attack
+
+Added a Registry Run key using the Windows Registry.
+
+## Detection
+
+- Wazuh Rule: 92302
+- Alert: Registry entry to be executed on next logon modified
+
+## MITRE ATT&CK
+
+- T1547.001 – Registry Run Keys / Startup Folder
+
+## Investigation
+
+Reviewed registry modification events and confirmed the persistence mechanism.
+
+## Outcome
+
+Persistence activity was successfully detected by Wazuh
