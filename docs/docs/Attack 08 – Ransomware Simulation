@@ -1,0 +1,25 @@
+# Attack 08 – Ransomware Simulation
+
+## Objective
+
+Simulate ransomware behaviour in an isolated lab.
+
+## Attack
+
+Executed a harmless ransomware simulation to generate file modification activity.
+
+## Detection
+
+Wazuh monitored suspicious file activity and process execution.
+
+## MITRE ATT&CK
+
+- T1486 – Data Encrypted for Impact
+
+## Investigation
+
+Reviewed file creation, process activity, and endpoint telemetry.
+
+## Outcome
+
+Simulation successfully generated security events for analysis.
