@@ -1,0 +1,30 @@
+# Attack 04 – User and Administrator Discovery
+
+## Objective
+
+Simulate attacker discovery activity.
+
+## Attack
+
+Executed Windows discovery commands including:
+
+- net user
+- net localgroup administrators
+- whoami
+
+## Detection
+
+- Wazuh Rule: 92039
+- Alert: Net.exe account discovery command initiated
+
+## MITRE ATT&CK
+
+- T1087 – Account Discovery
+
+## Investigation
+
+Verified execution through Windows process creation logs in Wazuh.
+
+## Outcome
+
+Discovery commands were successfully detected.
