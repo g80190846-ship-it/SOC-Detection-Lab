@@ -1,0 +1,26 @@
+# Attack 06 – Application Compatibility Database
+
+## Objective
+
+Observe Application Compatibility Database activity.
+
+## Attack
+
+Triggered Application Compatibility Database execution.
+
+## Detection
+
+- Wazuh Rule: 92058
+- Alert: Application Compatibility Database launched
+
+## MITRE ATT&CK
+
+- T1546.011 – Application Shimming
+
+## Investigation
+
+Validated process creation and application shim activity.
+
+## Outcome
+
+Wazuh successfully logged the event.
