@@ -1,0 +1,25 @@
+# Attack 05 – Scheduled Task Persistence
+
+## Objective
+
+Simulate persistence using Windows Scheduled Tasks.
+
+## Attack
+
+Created and executed a scheduled task using schtasks.exe.
+
+## Detection
+
+PowerShell and Windows process creation logs recorded scheduled task activity.
+
+## MITRE ATT&CK
+
+- T1053.005 – Scheduled Task
+
+## Investigation
+
+Reviewed process creation events and confirmed scheduled task execution.
+
+## Outcome
+
+Scheduled task activity was successfully monitored.
