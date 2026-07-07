@@ -1,0 +1,38 @@
+# SOC Incident Response Report
+
+## Environment
+
+- Wazuh SIEM
+- Sysmon
+- Windows 11
+- Kali Linux
+
+## Simulated Attacks
+
+- PowerShell Execution
+- Malware Drop
+- Registry Persistence
+- Scheduled Task Persistence
+- User Discovery
+- Application Shimming
+- Credential Dumping Simulation
+- Ransomware Simulation
+
+## Activities Performed
+
+- Alert Monitoring
+- Threat Hunting
+- Event Investigation
+- MITRE ATT&CK Mapping
+- Incident Documentation
+- Root Cause Analysis
+
+## Skills Demonstrated
+
+- SIEM Monitoring
+- Incident Response
+- Log Analysis
+- Threat Detection
+- Windows Security
+- Endpoint Monitoring
+- Blue Team Operations
